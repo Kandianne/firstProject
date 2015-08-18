@@ -36,6 +36,7 @@
 
 }
 
+/* TRYING TO HOVER
 a.works:hover {
 	background-color: (0, 0, , .3);
 }
@@ -43,7 +44,7 @@ a.works:hover {
 .subtitle {
 	font-size: 1.3em;
 }
-
+*/
 .searchbox {
 	background: black;
 	opacity: 30%;
