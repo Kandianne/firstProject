@@ -1,8 +1,20 @@
+/*body, html {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+}
+*/
+.row {
+	margin: 0;
+}
+
 .back {
 	background: url("http://wallpapercow.com/wp-content/uploads/2014/06/HD-Tropical-Paradise-Beach.jpg");
 	width: 100%;
 	height: 600px;
-	position: relative;
+
 }
 
 .navbar {
@@ -36,35 +48,42 @@
 
 }
 
+.centeredImage {
+	text-align: center;
+}
+
+
+#blockImageCenter {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+
 /* TRYING TO HOVER
 a.works:hover {
 	background-color: (0, 0, , .3);
 }
-
+*/
 .subtitle {
 	font-size: 1.3em;
 }
-*/
+
 .searchbox {
 	background: black;
-	opacity: 30%;
 	height: 99px;
 	position: relative;
-	top: 150px;
-	
 }
 
 #searchstuff {
-	margin: auto 30%;
-	padding-top: 70px;
 	display: inline;
+	width: 100%;
 }
 
-#pics {
-	margin-top: 200px;
-	margin-bottom: 60px;
+.inputBox {
+	display: inline;
+	width: 20%;
+	margin-top: 2.5%;
 }
 
-img {
-	margin: auto;
-}
+
